@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canais Digitais - Santander</title>
+     <link rel="icon" type="image/png" href="img/5a27cdfd52b1cc0d022e6d5c.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo-section">
+                <div class="logo-placeholder santander-logo">
+                    <span><img class="img2" src="img/santander.svg" alt=""></span>
+                </div>
+            </div>
+            <h1 class="main-title">Canais Digitais</h1>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="channels-grid">
+                
+                <!-- IBPF -->
+                <div class="channel-box" data-channel="ibpf">
+                    <div class="channel-header">
+                        <h3>IBPF</h3>
+                        <span class="subtitle">Internet Banking Pessoa Física</span>
+                    </div>
+                    <div class="channel-content">
+                        <p>É o acesso que o cliente pessoa física faz pelo computador ou navegador do celular.</p>
+                        <p>Ele entra com login e senha, às vezes usa token ou biometria, e consegue fazer consultas e transações.</p>
+                        <p>O sistema do banco confere se o acesso é de um dispositivo conhecido, se o comportamento é parecido com o de antes, e bloqueia se achar algo estranho.</p>
+                        <p><strong>Fraudes comuns:</strong> tentativas de roubo de senha (phishing) ou acesso de dispositivos suspeitos.</p>
+                    </div>
+                </div>
+
+                <!-- IBPJ -->
+                <div class="channel-box" data-channel="ibpj">
+                    <div class="channel-header">
+                        <h3>IBPJ</h3>
+                        <span class="subtitle">Internet Banking Pessoa Jurídica</span>
+                    </div>
+                    <div class="channel-content">
+                        <p>Parecido com o IBPF, mas para empresas.</p>
+                        <p>Normalmente tem mais de um usuário por conta e cada um com um tipo de permissão — por exemplo, um cria o pagamento e outro aprova.</p>
+                        <p>Muitas vezes usam token físico ou certificado digital para acessar.</p>
+                        <p><strong>Fraudes comuns:</strong> invasão da conta ou até por alguém de dentro da própria empresa tentando desviar dinheiro.</p>
+                    </div>
+                </div>
+
+                <!-- MBB -->
+                <div class="channel-box" data-channel="mbb">
+                    <div class="channel-header">
+                        <h3>MBB</h3>
+                        <span class="subtitle">Mobile Banking Pessoa Física</span>
+                    </div>
+                    <div class="channel-content">
+                        <p>É o aplicativo do banco no celular, usado por clientes pessoa física.</p>
+                        <p>O acesso pode ser por senha curta ou biometria, e para valores altos geralmente pede outro tipo de confirmação.</p>
+                        <p>O antifraude olha se o celular é o mesmo de sempre, se a localização bate, e se o padrão de uso faz sentido.</p>
+                        <p><strong>Golpes comuns:</strong> vírus no celular, clonagem de chip (SIM Swap) ou apps falsos.</p>
+                    </div>
+                </div>
+
+                <!-- MBJ -->
+                <div class="channel-box" data-channel="mbj">
+                    <div class="channel-header">
+                        <h3>MBJ</h3>
+                        <span class="subtitle">Mobile Banking Pessoa Jurídica</span>
+                    </div>
+                    <div class="channel-content">
+                        <p>É o aplicativo de celular para empresas.</p>
+                        <p>Funciona de forma parecida com o MBB, mas com funções voltadas para negócios, como aprovar pagamentos em lote.</p>
+                        <p>Também exige confirmações extras para operações importantes.</p>
+                        <p><strong>Riscos:</strong> parecidos com o IBPJ, mas aqui entram também problemas de segurança em celulares usados para trabalho.</p>
+                    </div>
+                </div>
+
+                <!-- WEY -->
+                <div class="channel-box" data-channel="wey">
+                    <div class="channel-header">
+                        <h3>WEY</h3>
+                        <span class="subtitle">Aplicativo de Cartão Santander</span>
+                    </div>
+                    <div class="channel-content">
+                        <p>É o app exclusivo para gerenciamento de cartões de crédito e débito do cliente.</p>
+                        <p>Por ele, a pessoa pode acompanhar gastos, gerar cartão virtual, ajustar limite, ativar/desativar funções e acessar o código de segurança dinâmico.</p>
+                    </div>
+                </div>
+
+                <!-- SPI -->
+                <div class="channel-box" data-channel="spi">
+                    <div class="channel-header">
+                        <h3>SPI</h3>
+                        <span class="subtitle">Sistema de Pagamentos Instantâneos</span>
+                    </div>
+                    <div class="channel-content">
+                        <p>É o sistema que processa o Pix.</p>
+                        <p>Funciona 24 horas, todos os dias, e a transferência é feita em segundos.</p>
+                        <p>Por ser muito rápido, o antifraude tem que decidir em milissegundos se a operação é segura ou não.</p>
+                        <p><strong>Fraudes comuns:</strong> transferências indevidas e criação de chaves Pix falsas.</p>
+                    </div>
+                </div>
+
+                <!-- ATM -->
+                <div class="channel-box" data-channel="atm">
+                    <div class="channel-header">
+                        <h3>ATM</h3>
+                        <span class="subtitle">Caixa Eletrônico</span>
+                    </div>
+                    <div class="channel-content">
+                        <p>São as máquinas de autoatendimento.</p>
+                        <p>O cliente insere o cartão, digita a senha e faz saques, depósitos e consultas.</p>
+                        <p>O antifraude aqui olha, por exemplo, se alguém está tentando sacar de um local fora do padrão.</p>
+                        <p><strong>Problemas comuns:</strong> clonagem de cartão (skimming) e bloqueio de saída de dinheiro (cash trapping).</p>
+                    </div>
+                </div>
+
+                <!-- C2 e C3 -->
+                <div class="channel-box" data-channel="contact">
+                    <div class="channel-header">
+                        <h3>C2 e C3</h3>
+                        <span class="subtitle">Contact Center</span>
+                    </div>
+                    <div class="channel-content">
+                        <p>São os atendimentos por telefone, mas com diferentes níveis de complexidade.</p>
+                        <p>O C2 resolve casos mais simples e o C3 casos mais críticos.</p>
+                        <p>O antifraude aqui se preocupa com golpes de engenharia social, onde o golpista tenta convencer o atendente a liberar acesso ou fazer transações.</p>
+                        <p><strong>Controles:</strong> o sistema registra e audita tudo para evitar problemas internos.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Funcionalidade para expandir/contrair os boxes
+        document.querySelectorAll('.channel-box').forEach(box => {
+            box.addEventListener('click', function() {
+                const isActive = this.classList.contains('active');
+                
+                // Fecha todos os outros boxes
+                document.querySelectorAll('.channel-box').forEach(otherBox => {
+                    otherBox.classList.remove('active');
+                });
+                
+                // Abre o box clicado se não estava ativo
+                if (!isActive) {
+                    this.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
