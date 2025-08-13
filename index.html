@@ -79,10 +79,10 @@
                     </div>
                 </div>
 
-                <!-- WEY -->
-                <div class="channel-box" data-channel="wey">
+                <!-- Way -->
+                <div class="channel-box" data-channel="WAY">
                     <div class="channel-header">
-                        <h3>WEY</h3>
+                        <h3>WAY</h3>
                         <span class="subtitle">Aplicativo de Cartão Santander</span>
                     </div>
                     <div class="channel-content">
@@ -132,6 +132,24 @@
                         <p><strong>Controles:</strong> o sistema registra e audita tudo para evitar problemas internos.</p>
                     </div>
                 </div>
+
+                                <!-- OSG -->
+                <div class="channel-box" data-channel="osg">
+                    <div class="channel-header">
+                        <h3>OSG</h3>
+                        <span class="subtitle">Open Systems Gateway</span>
+                    </div>
+                    <div class="channel-content">
+                        <p>Imagine que um cliente está fazendo uma transação no IBPF (Internet Banking Pessoa Física) ou no Way (app de cartão).</p>
+                        <p><strong>O canal envia a requisição para o OSG:</strong> Ele recebe essa requisição e garante que ela esteja no formato correto para seguir adiante.</p>
+                        <p><strong>O OSG faz a orquestração:</strong> Encaminha as informações para o motor antifraude ou para outros microsserviços que validam a transação como MAI e TNS.</p>
+                        <p><strong>Motor antifraude processa a operação:</strong> O principal motor que decide se a transação é aprovada, bloqueada ou se precisa de autenticação adicional é o LYNX.</p>
+                        <p><strong>Resposta retorna pelo OSG:</strong> O OSG recebe a decisão do motor antifraude.</p>
+                        <p><strong>O cliente vê o resultado:</strong> Transação aprovada, negada ou solicitando validação extra.</p>
+            
+                    </div>
+                </div>
+
 
             </div>
         </div>
